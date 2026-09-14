@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>CISC3015 Assgn01 Module 01 - Lab01 UC627465 宋欣悦</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 34px; background: #eef2f7; color: #172033; font: 17px/1.45 Segoe UI, Arial, sans-serif; }
+  header { background: linear-gradient(135deg,#123c69,#2a75b8); color: white; padding: 30px 34px; border-radius: 18px; margin-bottom: 24px; }
+  h1 { margin: 0 0 10px; font-size: 28px; }
+  header p { margin: 4px 0; font-size: 18px; }
+  .card { background: white; border: 1px solid #cdd7e3; border-left: 7px solid #2a75b8; border-radius: 14px; padding: 22px 26px; margin: 0 0 22px; break-inside: avoid; box-shadow: 0 3px 12px rgba(20,45,75,.08); }
+  h2 { margin: 0 0 8px; color: #123c69; font-size: 23px; }
+  .prompt { margin: 0 0 14px; font-weight: 600; }
+  .label { color: #49647d; font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; margin: 12px 0 6px; }
+  pre { white-space: pre-wrap; overflow-wrap: anywhere; margin: 0; border-radius: 8px; }
+  .code { background: #172033; color: #f3f7fb; padding: 15px 18px; font: 15px/1.45 Consolas, monospace; }
+  .output { background: #f7f9fc; border: 1px solid #d7e0ea; padding: 13px 16px; max-height: 520px; overflow: hidden; font: 14px/1.4 Consolas, monospace; }
+  .html-output { background: #fff; border: 1px solid #d7e0ea; padding: 10px; max-height: 560px; overflow: hidden; }
+  .html-output table { border-collapse: collapse; font-size: 13px; width: 100%; }
+  .html-output th,.html-output td { border: 1px solid #ccd6e2; padding: 4px 7px; text-align: right; }
+  .plot { display: block; max-width: 100%; max-height: 620px; margin: 0 auto; object-fit: contain; }
+  .success { padding: 12px 15px; border-radius: 8px; background: #e9f7ef; color: #17633b; font-weight: 700; }
+  .error { color: #a00000; }
+</style></head><body>
+<header><h1>CISC3015 Assgn01 Module 01 - Lab01 UC627465 宋欣悦</h1><p>Student: 宋欣悦 · UC627465</p><p>Executed notebook evidence · code and output</p></header>
+<section class="card" id="task-1">
+<h2>Task 1</h2>
+<p class="prompt">Question 1: Check the bottom 10 rows of data frame &quot;df&quot;.</p>
+<div class="label">Code · In [9]</div>
+<pre class="code"># Write your code below and press Shift+Enter to execute 
+df.tail(10)</pre>
+<div class="label">Output</div>
+<pre class="output">     0    1      2       3      4     5      6    7      8      9   ...   16  \
+195  -1   74  volvo     gas    std  four  wagon  rwd  front  104.3  ...  141   
+196  -2  103  volvo     gas    std  four  sedan  rwd  front  104.3  ...  141   
+197  -1   74  volvo     gas    std  four  wagon  rwd  front  104.3  ...  141   
+198  -2  103  volvo     gas  turbo  four  sedan  rwd  front  104.3  ...  130   
+199  -1   74  volvo     gas  turbo  four  wagon  rwd  front  104.3  ...  130   
+200  -1   95  volvo     gas    std  four  sedan  rwd  front  109.1  ...  141   
+201  -1   95  volvo     gas  turbo  four  sedan  rwd  front  109.1  ...  141   
+202  -1   95  volvo     gas    std  four  sedan  rwd  front  109.1  ...  173   
+203  -1   95  volvo  diesel  turbo  four  sedan  rwd  front  109.1  ...  145   
+204  -1   95  volvo     gas  turbo  four  sedan  rwd  front  109.1  ...  141   
+
+       17    18    19    20   21    22  23  24     25  
+195  mpfi  3.78  3.15   9.5  114  5400  23  28  13415  
+196  mpfi  3.78  3.15   9.5  114  5400  24  28  15985  
+197  mpfi  3.78  3.15   9.5  114  5400  24  28  16515  
+198  mpfi  3.62  3.15   7.5  162  5100  17  22  18420  
+199  mpfi  3.62  3.15   7.5  162  5100  17  22  18950  
+200  mpfi  3.78  3.15   9.5  114  5400  23  28  16845  
+201  mpfi  3.78  3.15   8.7  160  5300  19  25  19045  
+202  mpfi  3.58  2.87   8.8  134  5500  18  23  21485  
+203   idi  3.01  3.40  23.0  106  4800  26  27  22470  
+204  mpfi  3.78  3.15   9.5  114  5400  19  25  22625  
+
+[10 rows x 26 columns]</pre>
+</section><section class="card" id="task-2">
+<h2>Task 2</h2>
+<p class="prompt">Question 2: Find the name of the columns of the dataframe.</p>
+<div class="label">Code · In [15]</div>
+<pre class="code"># Write your code below and press Shift+Enter to execute 
+print(df.columns)</pre>
+<div class="label">Output</div>
+<pre class="output">Index([&#x27;symboling&#x27;, &#x27;normalized-losses&#x27;, &#x27;make&#x27;, &#x27;fuel-type&#x27;, &#x27;aspiration&#x27;,
+       &#x27;num-of-doors&#x27;, &#x27;body-style&#x27;, &#x27;drive-wheels&#x27;, &#x27;engine-location&#x27;,
+       &#x27;wheel-base&#x27;, &#x27;length&#x27;, &#x27;width&#x27;, &#x27;height&#x27;, &#x27;curb-weight&#x27;, &#x27;engine-type&#x27;,
+       &#x27;num-of-cylinders&#x27;, &#x27;engine-size&#x27;, &#x27;fuel-system&#x27;, &#x27;bore&#x27;, &#x27;stroke&#x27;,
+       &#x27;compression-ratio&#x27;, &#x27;horsepower&#x27;, &#x27;peak-rpm&#x27;, &#x27;city-mpg&#x27;,
+       &#x27;highway-mpg&#x27;, &#x27;price&#x27;],
+      dtype=&#x27;str&#x27;)
+</pre>
+</section><section class="card" id="task-3">
+<h2>Task 3</h2>
+<p class="prompt">Question 3: You can select the columns of a dataframe by indicating the name of each column. For example, you can select the three columns as follows: dataframe[[&#x27; column 1 &#x27;,column 2&#x27;, &#x27;column 3&#x27;]] Where &quot;column&quot; is the name of the column, you can apply the method &quot;.describe()&quot; to get the statistics of those columns as follows: dataframe[[&#x27; column 1 &#x27;,column 2&#x27;, &#x27;column 3&#x27;] ].describe() Apply the method to &quot;.describe()&quot; to the columns &#x27;length&#x27; and &#x27;compression-ratio&#x27;.</p>
+<div class="label">Code · In [20]</div>
+<pre class="code"># Write your code below and press Shift+Enter to execute 
+
+df[[&#x27;length&#x27;, &#x27;compression-ratio&#x27;]].describe()</pre>
+<div class="label">Output</div>
+<pre class="output">           length  compression-ratio
+count  201.000000         201.000000
+mean   174.200995          10.164279
+std     12.322175           4.004965
+min    141.100000           7.000000
+25%    166.800000           8.600000
+50%    173.200000           9.000000
+75%    183.500000           9.400000
+max    208.100000          23.000000</pre>
+</section>
+</body></html>
