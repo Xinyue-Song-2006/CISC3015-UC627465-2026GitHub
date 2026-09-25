@@ -1,43 +1,41 @@
-# CISC3015 Assignment 1
+# CISC3015 Coursework Portfolio
 
-Student: Xinyue Song (宋欣悦)  
-Student ID: UC627465
+**Student:** Xinyue Song (宋欣悦)  
+**Student ID:** UC627465
 
-This repository contains the completed materials for CISC3015 Assignment 1, covering Modules 01–06.
+This repository presents completed coursework and supporting evidence for CISC3015 - Data and Information Visualization (2026).
 
-## Repository structure
+## Portfolio contents
 
-- `notebooks/` — 12 completed and executed Jupyter Notebooks
-- `data/` — 7 CSV datasets used by the notebooks
-- `screenshots/` — 18 screenshots documenting major task results
-- `evidence-html/` — 12 HTML exports of the executed notebooks
-- `proposal/` — Individual Preliminary Project Proposal
+### Assignment 1
 
-## Module coverage
+Assignment 1 covers Modules 01-06 and is retained in the original repository folders:
 
-- Module 01: Lab 01 and Lab 02
-- Module 02: Lab 01 and Lab 02
-- Module 03: Lab 01 and Lab 02
-- Module 04: Lab 01 and Lab 02
-- Module 05: Lab 01 and Lab 02
-- Module 06: Practice Project and Final Project
+- `notebooks/` - 12 completed and executed Jupyter Notebooks
+- `data/` - 7 datasets used by the notebooks
+- `screenshots/` - 18 screenshots documenting major task results
+- `evidence-html/` - 12 HTML exports of the executed notebooks
+- `proposal/` - Individual Preliminary Project Proposal
 
-## Formal submission files
+### Assignment 2
 
-### Module 6 Practice
+The complete Assignment 2 portfolio is stored in [`assignment-02/`](assignment-02/README.md). It includes:
 
-- `CISC3015 Assgn01 Module 06 - PracticeProj UC627465 宋欣悦.ipynb`
-- `medical_insurance_dataset.csv`
+- Module 01-05 forum evidence in upload-ready PNG format
+- Practice Project Part 1 executed notebook
+- Practice Project Part 2 Dash application archive
+- Final Project Part 1 executed notebook
+- Final Project Part 2 Dash application archive
+- Dashboard screenshots, source code, local datasets, and dependency files inside the project archives
 
-### Module 6 Final Project
+## Verification
 
-- `CISC3015 Assgn01 Module 06 - FinalProj UC627465 宋欣悦.ipynb`
-- `kc_house_data_NaN.csv`
+- Submitted notebooks retain executed outputs and contain no error cells.
+- Forum evidence images were rendered and visually checked for readability.
+- Practice and Final Dash applications were launched and their callback logic was tested.
+- Project archives were checked for integrity and reproducible local execution.
 
-### Individual Project Proposal
+## AI use disclosure
 
-- `CISC3015-Assgn01-UC627465-PreliminaryProjectProposal.docx`
+OpenAI Codex assisted with code drafting, debugging, visualization generation, documentation, and presentation. All calculations, implementations, and outputs were reviewed by the student, who accepts responsibility for the submitted work.
 
-## Notes
-
-All notebooks were executed successfully and retained with their outputs. The screenshots and HTML exports provide supporting evidence for the completed work.
