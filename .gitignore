@@ -3,3 +3,9 @@ __pycache__/
 *.py[cod]
 .DS_Store
 Thumbs.db
+_moodle_capture/
+assignment-02/FINAL_2026-10-25_old/
+assignment-02/FINAL_2026-10-25/proposal_render_*/
+data/Canada.csv
+data/Canada.xlsx
+data/airline_data.csv

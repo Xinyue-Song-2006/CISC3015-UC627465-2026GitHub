@@ -5,7 +5,11 @@
 **Course:** CISC3015 - Data and Information Visualization  
 **Due date:** 25 October 2026
 
-This directory contains the complete portfolio and formal submission materials for CISC3015 Assignment 2.
+This directory contains the Assignment 2 portfolio and formal submission materials. The only valid current version is `FINAL_2026-10-25/`.
+
+## Version status
+
+The earlier uploaded materials are **void and superseded**. Please disregard the previous version and grade only the files in `FINAL_2026-10-25/`. See [`FINAL_VERSION_NOTICE.md`](FINAL_VERSION_NOTICE.md).
 
 ## Repository structure
 
@@ -18,6 +22,9 @@ This directory contains the complete portfolio and formal submission materials f
 | `05_Module_05_Forum/` | Practice and Final Project evidence, consolidated into ten forum-ready images |
 | `06_Practice_Project_Submission/` | Executed Practice Part 1 notebook and Practice Part 2 Dash archive |
 | `07_Final_Project_Submission/` | Executed Final Part 1 notebook and Final Part 2 Dash archive |
+| `FINAL_2026-10-25/` | Current final replacement version, forum text, notebooks, project spaces, and formal submissions |
+
+The revised proposal is located at `FINAL_2026-10-25/proposal/CISC3015-Assgn02-PairXX-RevisedProjectProposal.docx` and identifies the submission as an Independent Group (1 Pax).
 
 ## Module coverage
 
